@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'SFPixelateRegular', 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,.9);
+}
+
+.content {
+  flex: 1;
+}
+
+
+.title {
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
+
+hr {
+  border-top: 2px solid white;
+  margin-top: 20px;
+  max-width: 70%;
+}
+
+skycons {
+  margin: auto;
+  text-align:center;
+}
+
+#icon-output {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#icon1 {
+  max-width: 170px;
+  max-height: 170px;
+}
+
+p {
+  color: white;
+  font-size: 1.4em;
+}
+
+#output {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+#temp, #units {
+  display: inline-block;
+}
+
+#units {
+  padding-left: 3px;
+}
+
+#units a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  line-height: 10px;
+}
+
+.footer p {
+  font-size: .9em;
+}
+
+@media (min-width: 768px) {
+  hr {
+    max-width: 20%;
+  }
+  
+  .title h1 {
+    font-size: 3em;
+  }
+  
+  #icon1 {
+    max-width: 250px;
+    max-height: 250px;
+  }
+  
+  p {
+    font-size: 2em;
+  }
+  
+  #units a {
+    font-size: 2em;
+  }
+  
+  .footer p {
+    font-size: 1.1em;
+    line-height: 15px;
+  }
+}
