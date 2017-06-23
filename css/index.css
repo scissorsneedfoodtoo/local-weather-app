@@ -87,26 +87,31 @@ p {
   hr {
     max-width: 20%;
   }
-  
+
   .title h1 {
     font-size: 3em;
   }
-  
+
   #icon1 {
     max-width: 250px;
     max-height: 250px;
   }
-  
+
   p {
     font-size: 2em;
   }
-  
+
   #units a {
     font-size: 2em;
   }
-  
+
   .footer p {
     font-size: 1.1em;
     line-height: 15px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: white;
   }
 }
